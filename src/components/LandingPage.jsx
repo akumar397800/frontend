@@ -4,7 +4,7 @@ import axios from "axios";
 import { states as allStates } from "../utils/states";
 import Table from "../utils/Table";
 
-const API = "http://localhost:3001/api/data";
+const API = "https://okcl.onrender.com/api/data";
 
 const LandingPage = () => {
   const [total, setTotal] = useState("");

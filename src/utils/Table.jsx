@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
-const API_URL = "http://localhost:3001/";
+const API_URL = "https://okcl.onrender.com/";
 
 const Table = () => {
   const [tableData, setTableData] = useState([]);
